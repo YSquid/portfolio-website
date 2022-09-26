@@ -13,11 +13,9 @@
       crossorigin="anonymous"
     ></script>
     <!--font awesome import-->
-    <script src="./index.js" type="text/javascript"></script>
+    <script src="./index.js" async></script>
   </head>
   <body>
-    <h1 id="test-title">Test title</h1>
-    <button id="mybutton">My button</button>
     <nav>
       <div class="nav-left">
       <h1>Ahmad Kariem</h1>
@@ -105,7 +103,7 @@
               src="./assets/css-cheat-sq.png"
               alt="screenshot preview of css positioning cheat sheet project"
             />
-            <p>+ Details and Links</p>
+            <p id="cs-detail-toggle">+ Details and Links</p>
             <div id="cheat-sheet-details" class="details">
               <p>Quick reference guide for the 5 main CSS positioning types</p>
               <p>Made as part of Codecademy Web Development Foundations Course</p>
@@ -119,13 +117,29 @@
           <div class="project-card">
             <h3>Tea Cozy Landing Page</h3>
             <img src="./assets/tea-cozy-sq.png" alt="screenshot preview of tea cozt landing page project">
-            <p>+ Details and Links</p>
+            <p id="tc-detail-toggle">+ Details and Links</p>
+            <div class="teacozy-details">
+              <p>Landing page for a ficitonal business</p>
+              <p>Created according to provided website spec</p>
+              <p>Made as part of Codecademy Web Development Foundations Course</p>
+              <p>Tech used - HTML5 and CSS3</p>
+              <a href=""></a>
+              <a href=""></a>
+            </div>
           </div>
 
           <div class="project-card">
             <h3>Credit Card Number Validator</h3>
             <img src="./assets/card-checker-sq.png" alt="image of credit card with number highlighted and first step of luhn alorithm shown">
-            <p>+ Details and Links</p>
+            <p id="cc-detail-toggle">+ Details and Links</p>
+            <div class="cc-details">
+              <p>Program for checking credit cards</p>
+              <p>Can accept array of credit card numbers, and find the invalid ones</p>
+              <p>Takes list of invalid cards, and prints array of the credit card companies whose cards are in the invalid array</p>
+              <p>Tech used - Javascript, NodeJS for testing</p>
+              <a href=""></a>
+              <a href=""></a>
+            </div>
           </div>
         </div>
       </section>

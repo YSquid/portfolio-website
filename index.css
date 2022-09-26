@@ -161,7 +161,9 @@ nav h1 {
     margin-right: 1rem;
 }
 
-
+#cheat-sheet-details {
+    display: none;
+}
 
 /* skills container */
 .skills h2 {
