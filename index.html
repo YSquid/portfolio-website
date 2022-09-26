@@ -13,8 +13,11 @@
       crossorigin="anonymous"
     ></script>
     <!--font awesome import-->
+    <script src="./index.js" type="text/javascript"></script>
   </head>
   <body>
+    <h1 id="test-title">Test title</h1>
+    <button id="mybutton">My button</button>
     <nav>
       <div class="nav-left">
       <h1>Ahmad Kariem</h1>
@@ -75,7 +78,6 @@
               <li>Univeristy of Saskatchewan</li>
               <li>Graduated with High Honors</li>
             </ul>
-            <p id="more-biochem">+ see more</p>
           </div>
           <div class="edu-card">
             <h3>Masters in Business Administration (MBA) - 2019</h3>
@@ -83,7 +85,6 @@
               <li>University of Saskatchewan</li>
               <li>Graduated with Honors</li>
             </ul>
-            <p id="more-mba">+ see more</p>
           </div>
           <div class="edu-card">
             <h3>Full-Stack Softwar Engineer - In Progress</h3>
@@ -91,7 +92,6 @@
               <li>Codecademy</li>
               <li>Started September 2022</li>
             </ul>
-            <p id="more-codecademy">+ see more</p>
           </div>
         </div>
       </section>
@@ -102,21 +102,29 @@
           <div class="project-card">
             <h3>CSS Positioning Cheat Sheet</h3>
             <img
-              src="./assets/css-cheat.PNG"
+              src="./assets/css-cheat-sq.png"
               alt="screenshot preview of css positioning cheat sheet project"
             />
             <p>+ Details and Links</p>
+            <div id="cheat-sheet-details" class="details">
+              <p>Quick reference guide for the 5 main CSS positioning types</p>
+              <p>Made as part of Codecademy Web Development Foundations Course</p>
+              <p>Tech used - HTML 5 and CSS3</p>
+              <a href="https://github.com/YSquid/positioning-cheat-sheet"><i class="fa-brands fa-github"></i
+                >GitHub Repository</a>
+              <a href="https://codepen.io/ysquid/pen/NWMXxwp"><i class="fa-brands fa-codepen"></i>View in CodePen</a>
+            </div>
           </div>
 
           <div class="project-card">
             <h3>Tea Cozy Landing Page</h3>
-            <img src="./assets/tea-cozy.PNG" alt="screenshot preview of tea cozt landing page project">
+            <img src="./assets/tea-cozy-sq.png" alt="screenshot preview of tea cozt landing page project">
             <p>+ Details and Links</p>
           </div>
 
           <div class="project-card">
             <h3>Credit Card Number Validator</h3>
-            <img src="./assets/card-checker.PNG" alt="image of credit card with number highlighted and first step of luhn alorithm shown">
+            <img src="./assets/card-checker-sq.png" alt="image of credit card with number highlighted and first step of luhn alorithm shown">
             <p>+ Details and Links</p>
           </div>
         </div>

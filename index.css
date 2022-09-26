@@ -67,7 +67,7 @@ nav h1 {
 /* about section */
 
 .about h2 {
-    margin: 0.1rem auto 0.1rem auto;
+    margin: 1rem auto 0 auto;
     font-size: 1.75rem;
 }
 
@@ -98,7 +98,7 @@ nav h1 {
 /* education section */
 
 .education {
-    margin: 1rem auto;
+    margin: 3rem auto;
 }
 
 .education h2 {
@@ -125,6 +125,7 @@ nav h1 {
 
 .projects {
     text-align: center;
+    margin: 3rem auto;
 }
 
 .projects h2 {
@@ -140,7 +141,11 @@ nav h1 {
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     width: 30%;
+    height: fit-content;
     background-color: var(--sky);
     border-radius: var(--border-radius);
     padding: 0 0.5rem;
@@ -148,10 +153,15 @@ nav h1 {
 }
 
 .project-card img {
-    max-width: 90%;
-    max-height: 60%;
     border-radius: var(--border-radius);
+    max-height: 20rem;
 }
+
+.details a {
+    margin-right: 1rem;
+}
+
+
 
 /* skills container */
 .skills h2 {
@@ -171,6 +181,10 @@ nav h1 {
 }
 
 /* contact container */
+
+.contact {
+    margin: 3rem auto;
+}
 
 .contact h2{
     text-align: center;
