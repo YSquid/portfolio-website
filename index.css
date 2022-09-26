@@ -4,7 +4,9 @@
     --text: #413f3f;
     --sky: #CAEBF2;
     --watermelon: #FF3B3F;
+    --border-radius: 1rem;
 }
+
 
 html,body
 {
@@ -17,13 +19,6 @@ html,body
     background-color: var(--neutral);
 }
 
-nav {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    position: sticky;
-    top: 0;
-}
 
 main {
     width: 90%;
@@ -37,8 +32,25 @@ main {
 /* Nav styling */
 
 nav {
-    display: block;
-    background-color: var(--sky);
+    display: inline-flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2rem;
+    position: sticky;
+    left: 5%;
+    top: 0;
+    width: 90%;
+    border-radius: var(--border-radius);
+    font-size: 1.25rem;
+}
+
+.nav-left {
+}
+
+.nav-right li{
+    display: inline-block;
+    margin: auto 0.5rem;
 }
 
 nav i {
@@ -54,8 +66,16 @@ nav h1 {
     background-color: orange;
 }
 
+.about-title {
+    text-align: center;
+}
+
 .about-container {
     display: flex;
+}
+
+.about-container img {
+    border-radius: var(--border-radius);
 }
 
 /* education section */
@@ -71,7 +91,7 @@ nav h1 {
 
 .education-container {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap
 }
 
 .edu-card {
@@ -82,6 +102,27 @@ nav h1 {
 
 .projects {
     background-color: orange;
+    text-align: center;
+}
+
+.projects h2 {
+    margin: 0 auto;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap
+
+}
+
+.project-card {
+    width: 33%;
+    overflow: hidden;
+}
+
+.project-card img {
+    max-width: 90%;
+    max-height: 60%;
 }
 
 /* skills container */
@@ -90,8 +131,21 @@ nav h1 {
     background-color: lightblue;
 }
 
+.skills-container {
+    display: flex;
+}
+
+.skills-container i {
+    color: var(--watermelon);
+    font-size: 3rem;
+}
+
 /* contact container */
 
 .contact {
     background-color: orange;
+}
+
+.contact-container i {
+    color: var(--watermelon)
 }

@@ -16,6 +16,7 @@
   </head>
   <body>
     <nav>
+      <div class="nav-left">
       <h1>Ahmad Kariem</h1>
       <a href="https://github.com/YSquid" target="_blank"
         ><i class="fa-brands fa-github"></i
@@ -23,13 +24,23 @@
       <a href="https://www.linkedin.com/in/ahmad-kariem/" target="_blank"
         ><i class="fa-brands fa-linkedin"></i
       ></a>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li>About</li>
+        <li>Education</li>
+        <li>Projects</li>
+        <li>Skills</li>
+        <li>Contact</li>
+      </ul>
+    </div>
     </nav>
 
     <main>
       <section class="about">
         <div class="about-container">
           <div class="about-text">
-            <h2>About Me</h2>
+            <h2 class="about-title">About Me</h2>
             <p>
               Hi! My name is Ahmad Kariem, and I am a full stack developer from
               Saskatoon Sasktchewan.
@@ -48,7 +59,10 @@
               and e-sports, run, and lift weights.
             </p>
           </div>
-          <img src="./assets/portfoli site pic.jpg" alt="A headshot of Ahmad in a suit">
+          <img
+            src="./assets/portfoli site pic.jpg"
+            alt="A headshot of Ahmad in a suit"
+          />
         </div>
       </section>
 
@@ -64,12 +78,12 @@
             <p id="more-biochem">+ see more</p>
           </div>
           <div class="edu-card">
-           <h3>Masters in Business Administration (MBA) - 2019</h3>
-           <ul>
-            <li>University of Saskatchewan</li>
-            <li>Graduated with Honors</li>
-           </ul>
-           <p id="more-mba">+ see more</p>
+            <h3>Masters in Business Administration (MBA) - 2019</h3>
+            <ul>
+              <li>University of Saskatchewan</li>
+              <li>Graduated with Honors</li>
+            </ul>
+            <p id="more-mba">+ see more</p>
           </div>
           <div class="edu-card">
             <h3>Full-Stack Softwar Engineer - In Progress</h3>
@@ -79,15 +93,58 @@
             </ul>
             <p id="more-codecademy">+ see more</p>
           </div>
-          
         </div>
       </section>
 
-      <section class="projects">Projects</section>
+      <section class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <h3>CSS Positioning Cheat Sheet</h3>
+            <img
+              src="./assets/css-cheat.PNG"
+              alt="screenshot preview of css positioning cheat sheet project"
+            />
+            <p>+ Details and Links</p>
+          </div>
 
-      <section class="skills">Skills</section>
+          <div class="project-card">
+            <h3>Tea Cozy Landing Page</h3>
+            <img src="./assets/tea-cozy.PNG" alt="screenshot preview of tea cozt landing page project">
+            <p>+ Details and Links</p>
+          </div>
 
-      <section class="contact">Contact</section>
+          <div class="project-card">
+            <h3>Credit Card Number Validator</h3>
+            <img src="./assets/card-checker.PNG" alt="image of credit card with number highlighted and first step of luhn alorithm shown">
+            <p>+ Details and Links</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="skills-container">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-node"></i>
+          <i class="fa-brands fa-npm"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-chrome"></i>
+          <i class="fa-solid fa-terminal"></i>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-container">
+          <h3>Please feel free to reach out and connect!</h3>
+          <a href="mailto:ahk648@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/ahmad-kariem/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/YSquid"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </section>
     </main>
   </body>
 </html>
