@@ -1,6 +1,7 @@
 :root {
     --neutral: #EFEFEF;
     --carbon: #a9a9a9;
+    --text: #413f3f;
     --sky: #CAEBF2;
     --watermelon: #FF3B3F;
 }
@@ -9,7 +10,71 @@ html,body
 {
     width: 100%;
     height: 100%;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
     overflow-x: hidden; 
+    color: var(--text);
+    background-color: var(--neutral);
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+
+/* Nav styling */
+
+nav {
+    display: block;
+    background-color: var(--sky);
+}
+
+nav i {
+    color: var(--watermelon)
+}
+
+nav h1 {
+    margin: 0;
+}
+
+/* about section */
+.about-container {
+    display: flex;
+    background-color: orange;
+}
+
+/* education section */
+
+.education-container {
+    background-color: lightblue;
+}
+
+/* projects section */
+
+.projects-container {
+    background-color: orange;
+}
+
+/* skills container */
+
+.skills-container {
+    background-color: lightblue;
+}
+
+/* contact container */
+
+.contact-container {
+    background-color: orange;
 }
