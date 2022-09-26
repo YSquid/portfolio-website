@@ -35,17 +35,20 @@ nav {
     display: inline-flex;
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 2rem;
+    margin: 0 auto 0.5rem 0;
     position: sticky;
     left: 5%;
     top: 0;
     width: 90%;
-    border-radius: var(--border-radius);
     font-size: 1.25rem;
+    background-color: var(--neutral);
+    z-index: 2;
+    border-bottom: 1px solid var(--watermelon);
 }
 
-.nav-left {
+.nav-left h1{
+    display: inline-block;
+    margin: 0.5rem;
 }
 
 .nav-right li{
@@ -62,77 +65,104 @@ nav h1 {
 }
 
 /* about section */
-.about {
-    background-color: orange;
+
+.about h2 {
+    margin: 0.1rem auto 0.1rem auto;
+    font-size: 1.75rem;
 }
 
 .about-title {
     text-align: center;
 }
 
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: top;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
 .about-container {
     display: flex;
+    box-sizing: border-box;
 }
 
 .about-container img {
     border-radius: var(--border-radius);
+    height: auto;
 }
 
 /* education section */
 
 .education {
-    background-color: lightblue;
+    margin: 1rem auto;
 }
 
 .education h2 {
-    margin: 0 auto 1rem auto;
-    text-align: center
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.75rem;
 }
 
 .education-container {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .edu-card {
-    width: 33%
+    width: 30%;
+    background-color: var(--sky);
+    border-radius: var(--border-radius);
+    padding: 0 0.5rem;
+    border: 1px solid var(--watermelon)
 }
 
 /* projects section */
 
 .projects {
-    background-color: orange;
     text-align: center;
 }
 
 .projects h2 {
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 .projects-container {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 
 }
 
 .project-card {
-    width: 33%;
-    overflow: hidden;
+    width: 30%;
+    background-color: var(--sky);
+    border-radius: var(--border-radius);
+    padding: 0 0.5rem;
+    border: 1px solid var(--watermelon)
 }
 
 .project-card img {
     max-width: 90%;
     max-height: 60%;
+    border-radius: var(--border-radius);
 }
 
 /* skills container */
-
-.skills {
-    background-color: lightblue;
+.skills h2 {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.75rem;
 }
 
 .skills-container {
     display: flex;
+    justify-content: space-between;
 }
 
 .skills-container i {
@@ -142,10 +172,19 @@ nav h1 {
 
 /* contact container */
 
-.contact {
-    background-color: orange;
+.contact h2{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.75rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
 }
 
 .contact-container i {
-    color: var(--watermelon)
+    color: var(--watermelon);
+    font-size: 3rem;
+    margin: 1rem;
 }
