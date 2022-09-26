@@ -1,0 +1,1 @@
+This site was made using HTML5, CSS and Javascript as part of the Codecademy Building Interactive Websites Path.
