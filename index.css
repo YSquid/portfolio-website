@@ -50,31 +50,48 @@ nav h1 {
 }
 
 /* about section */
+.about {
+    background-color: orange;
+}
+
 .about-container {
     display: flex;
-    background-color: orange;
 }
 
 /* education section */
 
-.education-container {
+.education {
     background-color: lightblue;
+}
+
+.education h2 {
+    margin: 0 auto 1rem auto;
+    text-align: center
+}
+
+.education-container {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.edu-card {
+    width: 33%
 }
 
 /* projects section */
 
-.projects-container {
+.projects {
     background-color: orange;
 }
 
 /* skills container */
 
-.skills-container {
+.skills {
     background-color: lightblue;
 }
 
 /* contact container */
 
-.contact-container {
+.contact {
     background-color: orange;
 }
