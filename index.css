@@ -157,6 +157,10 @@ nav h1 {
     max-height: 20rem;
 }
 
+.details {
+    padding: 1rem;
+}
+
 .details a {
     margin-right: 1rem;
 }

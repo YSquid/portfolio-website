@@ -10,7 +10,7 @@ function toggleCsDisplay() {
         csDetail.style.display = 'none'
     }
 }
-csToggle.addEventListener('click', toggleCsDisplay)
+csToggle.addEventListener('click', toggleCsDisplay);
 
 
 /** Tea Cozy Detail Toggle **/
@@ -25,10 +25,11 @@ function toggleTcDisplay() {
     }
 }
 
-tcToggle.addEventListener('click', toggleTcDisplay)
+tcToggle.addEventListener('click', toggleTcDisplay);
 
 
 /** Credit Card Checker Detail Toggle **/
+
 const ccToggle = document.getElementById('cc-detail-toggle')
 const ccDetail = document.getElementById('cc-details')
 
@@ -40,5 +41,5 @@ function toggleCcDisplay() {
     }
 }
 
-ccToggle.addEventListener('click', toggleCcDisplay)
+ccToggle.addEventListener('click', toggleCcDisplay);
 
