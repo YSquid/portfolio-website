@@ -33,6 +33,7 @@ tcToggle.addEventListener('click', toggleTcDisplay);
 const ccToggle = document.getElementById('cc-detail-toggle')
 const ccDetail = document.getElementById('cc-details')
 
+
 function toggleCcDisplay() {
     if (ccDetail.style.display === 'none') {
         ccDetail.style.display = 'block'
@@ -41,5 +42,6 @@ function toggleCcDisplay() {
     }
 }
 
-ccToggle.addEventListener('click', toggleCcDisplay);
+
+ccToggle.addEventListener('click', toggleCcDisplay)
 
