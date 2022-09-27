@@ -44,8 +44,3 @@ function toggleCcDisplay() {
 
 
 ccToggle.addEventListener('click', toggleCcDisplay)
-<<<<<<< HEAD
-=======
-
->>>>>>> 766dc90377f6b75dc835a10610b5ecbd6432bb38
-
