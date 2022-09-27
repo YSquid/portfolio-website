@@ -3,6 +3,7 @@
     --carbon: #a9a9a9;
     --text: #413f3f;
     --sky: #CAEBF2;
+    --darksky: #61d6f0;
     --watermelon: #FF3B3F;
     --border-radius: 1rem;
 }
@@ -51,13 +52,25 @@ nav {
     margin: 0.5rem;
 }
 
+.nav-left h1:hover{
+    color: var(--watermelon)
+}
+
 .nav-right li{
     display: inline-block;
     margin: auto 0.5rem;
 }
 
+.nav-right li:hover {
+    color: var(--watermelon)
+}
+
 nav i {
     color: var(--watermelon)
+}
+
+nav i:hover {
+    color: var(--darksky)
 }
 
 nav h1 {
