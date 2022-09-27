@@ -1,25 +1,44 @@
-/*document.getElementById('mybutton').onclick = function() {
-    const h5 = document.getElementById('h5')
-    h5.style.color = 'red';
-}*/
 
-/*document.getElementById('details-button-1').onclick = function() {
-    const details = document.querySelector('#cheat-sheet-details')
-    details.style.display = 'block'
-}*/
+/** CSS Cheat Sheet Detail Toggle */
+const csToggle = document.getElementById('cs-detail-toggle')
+const csDetail = document.getElementById('cs-details')
 
-/*document.getElementById('cs-detail-toggle').onclick = function() {
-    document.getElementById('cheat-sheet-details').style.display = 'block'
+function toggleCsDisplay() {
+    if (csDetail.style.display === 'none') {
+        csDetail.style.display = 'block'
+    } else {
+        csDetail.style.display = 'none'
+    }
 }
-*/
+csToggle.addEventListener('click', toggleCsDisplay)
 
-const toggle = document.getElementById('cs-detail-toggle')
-const csDetail = document.getElementById('cheat-sheet-details')
 
-function toggleDisplay(obj) {
-    csDetail.style.display = 'block'
+/** Tea Cozy Detail Toggle **/
+const tcToggle = document.getElementById('tc-detail-toggle')
+const tcDetail = document.getElementById('tc-details')
+
+function toggleTcDisplay() {
+    if (tcDetail.style.display === 'none') {
+        tcDetail.style.display = 'block'
+    } else {
+        tcDetail.style.display = 'none'
+    }
 }
 
-toggle.onclick = toggleDisplay
+tcToggle.addEventListener('click', toggleTcDisplay)
 
+
+/** Credit Card Checker Detail Toggle **/
+const ccToggle = document.getElementById('cc-detail-toggle')
+const ccDetail = document.getElementById('cc-details')
+
+function toggleCcDisplay() {
+    if (ccDetail.style.display === 'none') {
+        ccDetail.style.display = 'block'
+    } else {
+        ccDetail.style.display = 'none'
+    }
+}
+
+ccToggle.addEventListener('click', toggleCcDisplay)
 

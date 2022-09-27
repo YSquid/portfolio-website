@@ -161,9 +161,19 @@ nav h1 {
     margin-right: 1rem;
 }
 
-#cheat-sheet-details {
+
+#cs-details {
     display: none;
 }
+
+#tc-details {
+    display: none;
+}
+
+#cc-details {
+    display: none;
+}
+
 
 /* skills container */
 .skills h2 {
