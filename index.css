@@ -1,16 +1,12 @@
 :root {
-    --neutral: #EFEFEF;
-    --carbon: #a9a9a9;
-    --text: #413f3f;
     --sky: #CAEBF2;
-    --darksky: #61d6f0;
     --watermelon: #FF3B3F;
+    --main-bg: #10162f;
+    --alt-text: #66c4ff;
+    --main-text: #f5fcff;
+    --dark-accent: #0a0d1c;
     --border-radius: 1rem;
 
-    --main-bg: #10162f;
-    --main-text: #66c4ff;
-    --alt-text: #f5fcff;
-    
 }
 
 
@@ -21,8 +17,7 @@ html,body
     margin: 0 auto;
     padding: 0px;
     overflow-x: hidden; 
-    color: var(--text);
-    background-color: var(--neutral);
+    background-color: var(--main-bg);
 }
 
 
@@ -33,28 +28,40 @@ main {
     
 }
 
+h2 {
+    color: var(--alt-text)
+}
+
 
 
 /* Nav styling */
+a:visited {
+    color: var(--alt-text)
+}
+
 
 nav {
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
     margin: 0 auto 0.5rem 0;
     position: sticky;
     left: 5%;
     top: 0;
-    width: 90%;
+    width: 100%;
     font-size: 1.25rem;
-    background-color: var(--neutral);
+    background-color: var(--dark-accent);
     z-index: 2;
     border-bottom: 1px solid var(--watermelon);
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .nav-left h1{
     display: inline-block;
     margin: 0.5rem;
+    color: var(--main-text)
 }
 
 .nav-left h1:hover{
@@ -70,17 +77,16 @@ nav {
     color: var(--watermelon)
 }
 
+
 nav i {
     color: var(--watermelon)
 }
 
 nav i:hover {
-    color: var(--darksky)
+    color: var(--main-text)
 }
 
-nav h1 {
-    margin: 0;
-}
+
 
 /* about section */
 
@@ -101,16 +107,18 @@ nav h1 {
     margin: 0 0.5rem;
     font-size: 1.25rem;
     padding: 1rem;
+    color: var(--main-text)
 }
 
 .about-container {
     display: flex;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .about-container img {
-    border-radius: var(--border-radius);
-    height: auto;
+    border-radius: 50%;
+    height: 25vh;
 }
 
 /* education section */
@@ -191,6 +199,14 @@ nav h1 {
 
 .details a {
     margin-right: 1rem;
+}
+
+.details a:visited {
+    color: var(--watermelon)
+}
+
+.details a:link {
+    color: var(--main-bg)
 }
 
 
